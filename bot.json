@@ -1,0 +1,44 @@
+[
+    {
+        "response_type": "greeting",
+        "user_input": ["hello", "hi", "hey", "sasa", "sup"],
+        "bot_response": "Hey there! Welcome to our online shop. How can i assist you today!",
+        "required_words": []
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["goodbye", "see you then", "bye"],
+        "bot_response": "See you later!",
+        "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "Sorry, We don't offer refunds for orders already taken. For assistance with an exchange, please reach out to us at 0756890786.",
+      "required_words": ["refund", "i"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["how", "are", "you"],
+        "bot_response": "I'm great! Thanks for asking.",
+        "required_words": ["how", "are", "you"]
+    },
+    {
+        "response_type": "product_inquiry",
+        "user_input": ["what", "have", "tell me", "about", "products", "do", "you", "have"],
+        "bot_response": "We offer a wide range of books for kids interested iin STEM. Explore our products on our website's dedicated product's page. If you find something you like, feel free to place an order!",
+        "required_words": []
+    },
+    {
+        "response_type": "acknowledgement",
+        "user_input": ["ok"],
+        "bot_response": "If you have any more questions about our business, feel free to ask!",
+        "required_words": ["ok"]
+    },
+    {
+        "response_type": "closing",
+        "user_input": ["thank", "you", "bye"],
+        "bot_response": "Thank you for visiting our online shop! If you have any more questions or need assistance, feel free to ask or call 0756890786. Goodbye!",
+        "required_words": ["thank"]
+    }
+  ]
